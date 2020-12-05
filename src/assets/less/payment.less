@@ -1,0 +1,164 @@
+.payment {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    // overflow-y: scroll;
+
+    /deep/ .van-nav-bar {
+        width: 100%;
+        height: 50px;
+        background-color: #a68679;
+    }
+
+    /deep/ .van-nav-bar .van-icon,
+    /deep/ .van-nav-bar__text {
+        color: #333;
+        font-size: 16px;
+    }
+
+    /deep/ .van-nav-bar__title {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    /deep/ .van-nav-bar::after {
+        border: none;
+    }
+
+    .pay-box {
+        width: 100%;
+        height: 100%;
+        min-height: 550px;
+        background-color: #e8e0d7;
+    }
+
+    .shipAddress {
+        padding: 10px;
+
+
+    }
+
+    .pay-ship-con {
+        border-radius: 10px;
+        background-color: #fff;
+
+        // overflow: hidden;
+        .con-text {
+            font-size: 18px;
+            padding: 10px;
+        }
+
+        .arrow {
+            position: relative;
+            top: 2px;
+            margin-left: 5px;
+        }
+
+    }
+
+    .addressInfo {
+        width: 100%;
+        max-height: 100px;
+        margin: 10px;
+        margin-top: 0px;
+    }
+
+    .user-info {
+        display: flex;
+        font-size: 18px;
+
+
+    }
+
+    .user-name {
+        margin-right: 20px;
+
+    }
+
+    .detail-address {
+        margin-top: 5px;
+        padding: 5px 20px 5px 5px;
+        font-size: 16px;
+        color: #999;
+    }
+
+    .defualt {
+        width: 40px;
+        height: 20px;
+        text-align: center;
+        font-size: 14px;
+        color: white;
+        background-color: #b96e44;
+        border-radius: 10px;
+        margin-left: 30px;
+    }
+  
+   
+   
+
+    .pay-combined {
+        z-index: 100;
+        height: 50px;
+        padding-top: 20px;
+        background-color: #fff;
+        position: relative;
+    }
+
+    .circle {
+        position: absolute;
+        top: 0;
+        width: 20px;
+        height: 20px;
+        background-color: #e8e0d7;
+        border-radius: 50%;
+    }
+
+    .circle-left {
+        position: absolute;
+        left: -10px;
+    }
+
+    .circle-right {
+        position: absolute;
+        right: -10px;
+    }
+
+
+
+    .btn-box {
+        width: calc(~"100% - 20px");
+        position: fixed;
+        bottom: 0;
+        padding: 10px;
+
+    }
+
+
+    /deep/ .van-address-item .van-radio__icon--checked .van-icon {
+        background-color: #b96e44;
+        border-color: #b96e44;
+    }
+    /deep/ .van-button--danger{
+        background-color: #b96e44;
+        border-color: #b96e44;
+      }
+
+    /deep/ .van-tag--danger {
+        background-color: #b96e44;
+    }
+
+    /deep/ .van-icon-edit {
+        display: none;
+    }
+
+    .address-title {
+        font-size: 18px;
+       padding: 10px 20px;
+        background-color: #b96e44;
+        color: white;
+    }
+
+
+}

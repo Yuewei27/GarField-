@@ -1,0 +1,95 @@
+.collect {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #e8e0d7;
+    /deep/ .van-nav-bar{
+        height: 50px;
+        background-color: #a68679;
+        
+    }
+    /deep/ .van-nav-bar::after {
+        border: none;
+    }
+
+    /deep/ .van-nav-bar .van-icon,
+    /deep/ .van-nav-bar__text {
+        color: #333;
+        font-size: 16px;
+    }
+    /deep/ .van-nav-bar__title {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    /deep/ .contain{
+        padding: 10px 15px ;
+        position: relative;
+        top: -30px;
+    }
+    /deep/ .addRessList[data-v-45208fd2] {
+        padding-top: 50px;
+      }
+  
+   
+    .collect-box{
+        padding-top: 20px;
+        background-color: #f5f5f5;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .bg-content {
+        padding-bottom: 0 !important;
+    }
+
+    .like-item {
+        width: calc(~"100% / 3 - 10px + 10px / 3");
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: #fff;
+
+        &:nth-child(3n) {
+            margin-right: 0;
+        }
+    }
+
+    .pro-name {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .one-text {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .pro-enname {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-size: 12px;
+        color: #999;
+    }
+
+    .pro-price {
+        font-size: 14px;
+        color: #c38a60;
+        font-weight: bold;
+    }
+
+    .delete {
+        width: 15px;
+        height: 15px;
+        margin-top: 2px;
+        color: #999;
+    }
+
+    /deep/ .van-empty {
+        background-color: #fff;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+    }
+}

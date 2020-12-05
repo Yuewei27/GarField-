@@ -1,0 +1,137 @@
+.login {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url(../image/bgc-re.jpg);
+    background-position: bottom;
+    background-size: 100% 100%;
+
+    .nav-left {
+        display: flex;
+        background-image: transent;
+    }
+
+    .logo {
+
+        width: 50px;
+        height: 50px;
+        background-image: url(../image/logo.jpg);
+        background-size: 100%;
+        border-radius: 50%;
+        margin-top: 3px;
+    }
+
+    .logo-text {
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 10px;
+        line-height: 50px;
+        background: linear-gradient(to right, #322c2a 20%, #debb99);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    /deep/ .van-nav-bar {
+        height: 70px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    /deep/ .van-nav-bar__text {
+        color: #322c2a;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    /deep/ .van-field {
+        background-color: rgba(83, 74, 81, 0.5);
+    }
+
+    /deep/ .van-field__label,
+    .van-field__body input {
+        color: rgba(255, 255, 255, 1);
+    }
+
+    /deep/ .van-nav-bar::after {
+        border: none;
+    }
+
+    .user-box {
+        margin-top: 60px;
+        padding: 0 15px;
+    }
+
+    .welcome {
+
+        background: #5a493d;
+        -webkit-background-clip: text;
+        color: transparent;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .sub-title {
+        margin-top: 30px;
+        font-size: 16px;
+        background: linear-gradient(to right, #b5a8a6, #322c2a 60%);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    .user-title {
+        margin-bottom: 50px;
+    }
+
+    .commit-btn {
+        margin-top: 30px;
+
+    }
+
+    
+
+    .forgotpass {
+        text-align: right;
+        color: #666666;
+        font-size: 14px;
+        margin-top: 20px;
+        font-weight: bold;
+        color: rgba(59, 50, 57, .8);
+    }
+
+    .register-box {
+        padding: 15px 0;
+        background-image: url(../image/reg-bg.jpg);
+        background-size: 100%;
+
+
+
+        /deep/ .van-popup__close-icon {
+            color: white;
+            border: 1px solid white;
+            border-radius: 50%;
+        }
+
+        /deep/ .van-button__text{
+            color: #333;
+        }
+
+    }
+
+
+
+    .register-btn {
+        padding: 0 15px;
+    }
+
+    .register-title {
+        font-size: 24px;
+        font-weight: bold;
+        padding: 0 15px;
+        margin-bottom: 50px;
+        background: #fff;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+}
